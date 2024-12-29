@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form method="post" >
+        <fieldset>
+         <legend>formulaire</legend>
+         <div>
+            <label for="prenom"> entrer votre prenom :</label>
+            <br>
+            <input id="prenom" type="text" name="prenom" required>
+           </div>
+           <div>
+             <label for="nom"> entrer votre nom :</label>
+             <br>
+             <input id="nom" type="text" name="nom" required>
+           </div>
+           <div>
+            <label for="email"> entrer votre mail :</label>
+            <br>
+             <input id="email" type="text" name="email" required>
+           </div>
+           <div>
+             <label for="mot de passe">entrer votre mot de paase : </label>
+             <br>
+             <input id="mot de passe" type="password" name="password" required>
+           </div>
+           <div>
+            <label for="confirmer votre mot de paase">confirmer votre mot de paase : </label>
+            <br>
+            <input id="confirmer votre mot de paase" type="password" name="password" required>
+           </div>
+           <div>
+            <p>votre genre :</p>
+            <input  id="homme" type="radio" value="homme" name="genre"> homme
+            <br>
+            </div>
+            <div>    
+            <input id="femme" type="radio" value="Femme" name="genre"> Femme
+           </div>
+           <p>votre pays :</p>
+           <select name="pays" id="pays">
+             <option value="tunis">tunis</option>
+             <option value="france">france</option>
+             <option value="belguique">belguique</option>
+             </select>
+           </div>
+           <div>
+            <input type="button" value="click ici">
+           </div>
+           
+    
+    
+</body>
+</html>
